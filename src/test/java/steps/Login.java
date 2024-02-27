@@ -2,6 +2,7 @@ package steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Login {
@@ -19,6 +20,11 @@ public class Login {
 	@And("I click on Login button")
 	public void clickLogin() {
 		System.out.println("clicked on Login button");
+	}
+	
+	@Then("User should be logged in")
+	public void userLoggedIn() {
+		System.out.println("user is logged in");
 	}
 
 }
