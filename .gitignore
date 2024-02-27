@@ -1,2 +1,6 @@
 target/**
+<<<<<<< HEAD
 target/
+=======
+target/classes/.cucumber/**
+>>>>>>> 946d04a4a7aeb36215cef4bb6022cb4e57367857
