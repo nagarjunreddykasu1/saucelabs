@@ -26,5 +26,9 @@ public class Login {
 	public void userLoggedIn() {
 		System.out.println("user is logged in");
 	}
+	
+	public void setup() {
+		System.out.println("setup method");
+	}
 
 }
